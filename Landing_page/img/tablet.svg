@@ -1,0 +1,24 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<g id="Vrstva_56">
+	<g>
+		<g>
+			<path d="M74,90H26c-3.033,0-5.5-2.467-5.5-5.5v-69c0-3.033,2.467-5.5,5.5-5.5h48c3.032,0,5.5,2.467,5.5,5.5v69
+				C79.5,87.533,77.032,90,74,90z M26,13c-1.378,0-2.5,1.122-2.5,2.5v69c0,1.378,1.122,2.5,2.5,2.5h48c1.378,0,2.5-1.122,2.5-2.5
+				v-69c0-1.378-1.122-2.5-2.5-2.5H26z"/>
+		</g>
+		<g>
+			<path d="M68,72H32c-1.378,0-2.5-1.122-2.5-2.5v-48c0-1.378,1.122-2.5,2.5-2.5h36c1.378,0,2.5,1.122,2.5,2.5v48
+				C70.5,70.878,69.378,72,68,72z M32.5,69h35V22h-35V69z"/>
+		</g>
+		<g>
+			<path d="M53.5,81h-7c-0.829,0-1.5-0.671-1.5-1.5s0.671-1.5,1.5-1.5h7c0.828,0,1.5,0.671,1.5,1.5S54.328,81,53.5,81z"/>
+		</g>
+	</g>
+</g>
+<script  type="text/javascript">
+    <![CDATA[
+         var c=window.location.search.split('color=')[1]; c=parseInt(c,16); if(!isNaN(c)){c=c.toString(16);var p=document.getElementsByTagName('path');for(var i=0,l=p.length;i<l;i++){var s=p[i].style;s.fill='#'+c;} var p2=document.getElementsByTagName('polygon');for(var i=0,l=p2.length;i<l;i++){var s=p2[i].style;s.fill='#'+c;} var p3=document.getElementsByTagName('circle');for(var i=0,l=p3.length;i<l;i++){var s=p3[i].style;s.fill='#'+c;} }
+        ]]>
+</script>
+</svg>
