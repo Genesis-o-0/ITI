@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1691840957 source:/home/genesis/ITI/playground/C++/training/OOP/Person/main.cpp
+	<iostream>
+	<cstring>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1689874783 source:/home/genesis/ITI/Projects/ITI/C++/Simple/check_Vowel_Consonant_Digit/checkVowelConsonantDigit/main.cpp
+	<iostream>
+	<ctype.h>
+
