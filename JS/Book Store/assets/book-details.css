@@ -1,0 +1,87 @@
+.container {
+  position: relative;
+}
+nav {
+  margin-bottom: 50px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  gap: 15px;
+}
+.hero-section {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+}
+.hero-section img {
+  display: inline-block;
+  width: 30%;
+  height: 450px;
+}
+.description {
+  width: 50%;
+  flex: 1;
+}
+.authors ul {
+  list-style-type: disc;
+  font-size: 20px;
+}
+.authors ul li {
+  margin-right: 20px;
+  color: #626262;
+}
+.publisher {
+  margin: 10px 0;
+}
+.publisher span,
+.date span {
+  color: #626262;
+  font-weight: normal;
+}
+
+/* footer {
+  margin-top: auto;
+  height: 60px;
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+} */
+.main {
+  margin-bottom: 10px;
+}
+#CTA {
+  background-color: #626262;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.description #CTA:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #000000;
+  width: 70px;
+  height: 70px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
