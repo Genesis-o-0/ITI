@@ -1,0 +1,184 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* Navbar */
+header {
+  background-color: #106eea;
+}
+.navbar-nav li:not(.dropdown) a:hover {
+  border-bottom: 3px solid #106eea;
+}
+
+.active-nav-link {
+  border-bottom: 3px solid #106eea;
+}
+/* hero section */
+.hero-section {
+  background: url("./imgs/hero-bg.jpg");
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  height: 500px;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+.hero-section .container {
+  height: auto;
+  padding-left: 0;
+}
+.hero-section div h1 {
+  font-weight: bolder;
+}
+.hero-section div p {
+  color: #535353;
+}
+.Watch-video {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.Watch-video i {
+  color: #106eea;
+  font-size: 30px;
+}
+.buttons button {
+  background-color: #106eea;
+}
+.cards .card {
+  border: none !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.cards {
+  margin-bottom: 3rem !important;
+}
+.overall .card img {
+  width: fit-content;
+}
+/* About us  */
+.about-us {
+  background-color: #f6f9fe;
+}
+.icon .icon-img {
+  color: #106eea;
+}
+.statistic .statistic-color {
+  background-color: #f1f6fe;
+}
+/* Companies section */
+.companies .companies-bg {
+  background-color: #f6f9fe;
+}
+
+/* Services */
+.services .row .card-border {
+  border: 1px solid #f1f6fe;
+}
+/* testimonials */
+.testimonials {
+  background: url("./imgs/testimonials-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.higher-z-index {
+  position: relative;
+  z-index: 5;
+}
+
+#carouselExampleCaptions {
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+.test-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid rgba(206, 207, 207, 0.2);
+}
+.test-img img {
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  position: static;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+}
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #f1f6fe;
+}
+
+.carousel-indicators .active {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #106eea;
+}
+.portfolio .container .nav-item .active {
+  color: #106eea !important;
+}
+
+.our-team,
+.FAQ {
+  background-color: #f6f9fe;
+}
+.our-team .row .card-padding {
+  box-shadow: rgba(110, 147, 186, 0.2) 0px 8px 24px;
+}
+.pricing .container .row .pricing-padding {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.row .card-border .img-background {
+  background-color: #e1ebf9;
+}
+.news-letter {
+  background-color: #f6f9fe;
+}
+.credits {
+  background-color: #f6f9fe;
+}
