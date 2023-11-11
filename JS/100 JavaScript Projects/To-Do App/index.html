@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <h1 class="text-primary text-center py-5">To-Do App</h1>
+
+    <div class="container">
+      <div class="input-group mb-4 mx-auto">
+        <input
+          id="inputField"
+          type="text"
+          class="form-control"
+          placeholder="Task name"
+          aria-label="Task name"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="button-addon2"
+        >
+          Button
+        </button>
+      </div>
+      <table class="table table-dark table-hover align-middle table-responsive">
+        <thead class="align-middle">
+          <tr>
+            <th scope="col">Task name</th>
+            <th scope="col">completed</th>
+            <th scope="col">Remove task</th>
+          </tr>
+        </thead>
+        <tbody id="toDoContainer"></tbody>
+      </table>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
